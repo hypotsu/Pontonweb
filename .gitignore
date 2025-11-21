@@ -1,0 +1,9 @@
+/node_modules
+npm-debug.log
+# pyCharm IDE files
+/.idea/
+**.solution.js
+
+# test coverage
+/coverage
+.env

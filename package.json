@@ -1,0 +1,16 @@
+{
+  "name": "elikia-kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles --clearMocks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies":{
+     "jest": "^29.7.0",
+     "prettier": "^3.2.5"
+  }
+}
