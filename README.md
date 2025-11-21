@@ -6,13 +6,13 @@ de code bien connues comme (extrac method, chaine of responsability, Long Method
 Le Kata présente une function utilitaire qui permet de créer un produit en fournisant
 deux argument à la function parseTextToProduct à savoir une chaine de caractère et un la référence à un objet (product).
 
-# Installation
+## Installation
 
 ```bash
   npm run install
 ```
 
-# Lancer les tests
+## Lancer les tests
 
 ```bash
   npm run test
