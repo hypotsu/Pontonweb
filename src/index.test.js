@@ -1,10 +1,10 @@
-const { parseTextToProduct, createNode } = require('./index');
+const { parseTextToProduct, createProduct } = require('./index');
 
 describe('Elikia kata testing parseTextToProduct', () => {
     let product = null;
     let description = null;
     beforeEach(() => {
-        product = createNode();
+        product = createProduct();
         description = [];
     });
     it('Le prix est 4000 quand on a une telle chaine de caractère price:4000', () => {

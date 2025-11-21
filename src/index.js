@@ -1,4 +1,4 @@
-const createNode = () => {
+const createProduct = () => {
     return {
         category: '',
         price: 0,
@@ -22,7 +22,7 @@ const country_map = {
     angola: 'an',
 };
 
-function parseTextToProduct(textLine, product = createNode()) {
+function parseTextToProduct(textLine, product = createProduct()) {
     const priceMatch = textLine.match(/^price:(.+)$/);
     const originMatch = textLine.match(/^country:(.+)$/);
     const categoryMatch = textLine.match(/^category:(.+)$/);
@@ -105,4 +105,4 @@ function parseTextToProduct(textLine, product = createNode()) {
     return product;
 }
 
-module.exports = { parseTextToProduct, createNode };
+module.exports = { parseTextToProduct, createProduct };
